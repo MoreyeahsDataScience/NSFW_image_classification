@@ -2,8 +2,9 @@ import streamlit as st
 from PIL import Image
 from classification import classify_nsfw_images
 
-# Title of the Streamlit app
-st.title("Inappropriate Image Classifier")
+st.title("NSFW Image Classification DEMO")
+st.write("This APP uses a pre-trained deep learning model to classify uploaded images into NSFW (Not Safe for Work) categories. This api helps us identify explicit digital content that's inappropriate for viewing in public or at work. It includes multiple categories such as 18+, and results images with flag such as Safe, Questionable , or Unsafe . It returns the model's classification label, confidence score, and NSFW category for each image.")
+
 
 # Upload image section
 
